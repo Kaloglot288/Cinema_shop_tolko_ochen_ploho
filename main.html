@@ -17,16 +17,21 @@
             place-items: center;
         }
         .head{
-            margin-top: -90px;
             background-color: #3B3B3B;
             height: 150px;
             width: 1440px;
         }
+        .header{
+            text-align: center;
+            align-items: end;
+            display: flex;
+            color: #fff;
+            padding: 10px;
+        }
         .signIn{
-            margin-top: -35px;
             color: #dedede;
             float: right;
-            margin-right: 300px;
+            padding-left: 510px;
             font-size: 32px;
         }
         .logo{
@@ -44,70 +49,268 @@
             font-size: 24px;
             height: 100px;
         }
-        .search{
-            padding: 20px;
-        }
-        .cinema{
-            padding: 20px;
-        }
-        .films{
-           padding: 20px;
-        }
-        .news{
+        .menu-buttons{
             padding: 20px;
         }
         .afisha{
-            height: 385px;
-            width: 225px;
+            height: 400px;
+            width: 230px;
             background-color: gray;
             border: 1px solid black;
-            
-            
+            text-align: center;
         }
         .body{
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 840px;
+            height: 1000px;
+            width: 840px;
+            gap: 80px;
+        }
+        img{
+            width: 230px;
+            height: 200px;
+        }
+        .footer{
+            width: 1440px;
+            height: 130px;
+            background-color: #3B3B3B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .svedeniaParthers{
             width: 840px;
             
-            
-            column-gap: 80px;
-            row-gap: 50px;
+        }
+        .parthers{
+            align-items: center;
+            justify-content: center;
         }
     </style>
 </head>
 <body>
     <div class="main">
         <div class="head">
-            <div class="logo">Тут Крутое Лого</div>
-            <div class="signIn">Войти</div>
+            <div class="header">
+                <div class="logo">Тут Крутое Лого</div>
+                <div class="signIn">Войти</div>
+            </div>
             <div class="menu">
-                <div class="search">MПоиск</div>
-                <div class="films">Фильмы</div>
-                <div class="cinema">Кинотеарты</div>
-                <div class="news">Новости</div>
+                <div class="menu-buttons">MПоиск</div>
+                <div class="menu-buttons">Фильмы</div>
+                <div class="menu-buttons">Кинотеарты</div>
+                <div class="menu-buttons">Новости</div>
             </div>
         </div>
         <div class="body">
             <div>
                 <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
                 </div>
+                <br>
+                <br>
                 <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
                 </div>
             </div>
             <div>
                 <div class="afisha">
-                    <div></div>
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
                 </div>
+                <br>
+                <br>
                 <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
                 </div>
             </div>
             <div>
                 <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
                 </div>
-                <div class="afisha">        
+                <br>
+                <br>
+                <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">  
+                </div>
             </div>
+        </div>
+        <div class="footer">
+            <div class="svedeniaParthers">
+                <div>
+                    <div class="svedenia">О кинотеарте</div>
+                    <div class="svedenia">Вакансии</div>
+                    <div class="svedenia">Правила кинотеарта</div>
+                    <div class="svedenia">Политика конфидициальности</div>
+                </div>
+                <div class="parthers">
+                    Партнеры
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .main{
+            background-color: #161616;
+            width: 1440px;
+            height: 1250px;
+            display: grid;
+            place-items: center;
+        }
+        .head{
+            background-color: #3B3B3B;
+            height: 150px;
+            width: 1440px;
+        }
+        .header{
+            text-align: center;
+            align-items: end;
+            display: flex;
+            color: #fff;
+            padding: 10px;
+        }
+        .signIn{
+            color: #dedede;
+            float: right;
+            padding-left: 510px;
+            font-size: 32px;
+        }
+        .logo{
+            color: #dedede;
+            margin-left: 300px;
+            font-size: 32px;
+            font-style: italic;
+        }
+        .menu{
+            text-align: center;
+            align-items: end;
+            display: flex;
+            color: #fff;
+            margin-left: 465px;
+            font-size: 24px;
+            height: 100px;
+        }
+        .menu-buttons{
+            padding: 20px;
+        }
+        .afisha{
+            height: 400px;
+            width: 230px;
+            background-color: gray;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 1000px;
+            width: 840px;
+            gap: 80px;
+        }
+        img{
+            width: 230px;
+            height: 200px;
+        }
+        .footer{
+            width: 1440px;
+            height: 130px;
+            background-color: #3B3B3B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .svedeniaParthers{
+            width: 840px;
+            
+        }
+        .parthers{
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <div class="header">
+                <div class="logo">Тут Крутое Лого</div>
+                <div class="signIn">Войти</div>
+            </div>
+            <div class="menu">
+                <div class="menu-buttons">MПоиск</div>
+                <div class="menu-buttons">Фильмы</div>
+                <div class="menu-buttons">Кинотеарты</div>
+                <div class="menu-buttons">Новости</div>
+            </div>
+        </div>
+        <div class="body">
+            <div>
+                <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
+                </div>
+                <br>
+                <br>
+                <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
+                </div>
+            </div>
+            <div>
+                <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
+                </div>
+                <br>
+                <br>
+                <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
+                </div>
+            </div>
+            <div>
+                <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">
+                </div>
+                <br>
+                <br>
+                <div class="afisha">
+                    <img src="лев.jpg"class="oblojka">
+                    <img src="Без названия.png">  
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="svedeniaParthers">
+                <div>
+                    <div class="svedenia">О кинотеарте</div>
+                    <div class="svedenia">Вакансии</div>
+                    <div class="svedenia">Правила кинотеарта</div>
+                    <div class="svedenia">Политика конфидициальности</div>
+                </div>
+                <div class="parthers">
+                    Партнеры
+                </div>
             </div>
         </div>
     </div>
